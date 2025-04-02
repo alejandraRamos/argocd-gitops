@@ -16,7 +16,7 @@ spec:
         app: demo-app
     spec:
       containers:
-      - image: siddharth67/solar-system:v9 # change
+      - image: alejandraramos/demo:73afefc
         name: demo-app
         imagePullPolicy: Always
         ports: 
