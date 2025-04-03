@@ -16,7 +16,7 @@ spec:
         app: demo-app
     spec:
       containers:
-      - image: alejandraramos/demo:
+      - image: alejandraramos/demo:ec832dc
         name: demo-app
         imagePullPolicy: Always
         ports: 
