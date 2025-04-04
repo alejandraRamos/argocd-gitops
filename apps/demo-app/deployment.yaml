@@ -16,7 +16,7 @@ spec:
         app: demo-app
     spec:
       containers:
-      - image: alejandraramos/demo:73afefc
+      - image: alejandraramos/demo:f14390c
         name: demo-app
         envFrom:
         - ConfigMapRef:
