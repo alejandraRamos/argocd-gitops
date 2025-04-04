@@ -23,4 +23,6 @@ spec:
         envFrom:
           - configMapRef:
               name: demo-app-env
+          - secretRef:
+                name: demo-app-secret
               
