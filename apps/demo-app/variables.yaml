@@ -7,3 +7,4 @@ data:
   APP_NAME: "Demo App"
   WELCOME_MESSAGE: "Bienvenido a la aplicación de GitOps"
   FOOTER_TEXT: "GitOps & ArgoCD"
+  
