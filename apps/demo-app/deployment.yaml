@@ -18,9 +18,8 @@ spec:
       containers:
       - image: alejandraramos/demo:f14390c
         name: demo-app
-        envFrom:
-        - ConfigMapRef:
-            name: demo-app-env
-        imagePullPolicy: Always
         ports: 
-        - containerPort: 80
+          - containerPort: 80
+        envFrom:
+          - configMapRef:
+              name: demo-app-env
