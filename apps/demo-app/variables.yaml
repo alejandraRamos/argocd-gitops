@@ -5,6 +5,6 @@ metadata:
   namespace: default
 data:
   APP_NAME: "Demo App"
-  WELCOME_MESSAGE: "Bienvenidos a la aplicación - Lucho, Migue & Renzo"
+  WELCOME_MESSAGE: "Bienvenidos a la aplicación"
   FOOTER_TEXT: "GitOps & ArgoCD"
   
