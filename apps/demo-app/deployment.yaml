@@ -16,7 +16,7 @@ spec:
         app: demo-app
     spec:
       containers:
-      - image: alejandraramos/demo:96c5ed0
+      - image: alejandraramos/demo:xxxxx
         name: demo-app
         ports: 
           - containerPort: 80
