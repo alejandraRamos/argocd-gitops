@@ -9,9 +9,9 @@ spec:
     server: https://kubernetes.default.svc
   project: default
   source:
-    path: apps/demo2-app
-    repoURL: https://your-git-repo-url
+    repoURL: https://github.com/alejandraRamos/argocd-gitops.git
     targetRevision: HEAD
+    path: apps/demo2-app/
     plugin:
       name: ksops
   syncPolicy:
